@@ -8,7 +8,7 @@ You can customize :
 - Toggle _search in folder name_
 - Bookmarks profiles paths
 
-The script contains some personal customization (dealing with display prefixes and profiles priority), feel free to overwrite it to suite your needs.  
+The script contains some personal customization (dealing with display prefixes and profiles priority), feel free to overwrite it to suit your needs.  
 Thanks to [JXON_ahk2](https://github.com/TheArkive/JXON_ahk2/) for JSON parsing.
 
 ## Scope
