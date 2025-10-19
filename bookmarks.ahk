@@ -34,10 +34,27 @@ global g_showEQXPrefix := false
 ; FONCTIONS PRINCIPALES
 ; ===========================================================================================
 
+; Fonction pour détecter si une application est en plein écran
+isFullScreen() {
+    try {
+        WinGetPos(, , &w, &h, "A")
+        return (w = A_ScreenWidth && h = A_ScreenHeight)
+    } catch {
+        return false
+    }
+}
+
 ; Initialisation du script
 Init() {
-    ; Enregistrer le hotkey
-    Hotkey(g_hotkey, OpenBookmarkPalette)
+    ; Enregistrer le hotkey avec condition de plein écran
+    Hotkey(g_hotkey, OpenBookmarkPaletteWithFullscreenCheck)
+}
+
+; Fonction wrapper pour vérifier le plein écran avant d'ouvrir la palette
+OpenBookmarkPaletteWithFullscreenCheck(*) {
+    if !isFullScreen() {
+        OpenBookmarkPalette()
+    }
 }
 
 ; Charger les bookmarks depuis Chrome (tous les profils)
