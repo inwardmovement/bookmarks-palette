@@ -1,7 +1,7 @@
 # bookmarks-palette
 A command palette to search in your Chrome bookmarks, made with [AHK](https://www.autohotkey.com/).
 
-<img width="237" height="200" alt="image" src="https://github.com/user-attachments/assets/9e4fb467-2ba3-4c68-ae6d-908af74545dd" />
+<img width="237" height="200" alt="image" src="https://github.com/user-attachments/assets/91cab3e6-645f-41d3-a06e-9c845913841a" />
 
 You can customize :
 - Hotkey (`Ctrl + Space` by default)
