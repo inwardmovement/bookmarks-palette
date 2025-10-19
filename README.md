@@ -8,3 +8,6 @@ You can customize :
 
 The script contains some personal customizations (dealing with display prefixes and profiles priority), feel free to overwrite them to suite your needs.  
 Thanks to [JXON_ahk2](https://github.com/TheArkive/JXON_ahk2/) for JSON parsing.
+
+## Scope
+Although I will consider suggestions and PRs, I made this app to suit my needs in terms of features and accessibility.
