@@ -1,4 +1,4 @@
-# Bookmarks-palette
+# Bookmarks-palette (AHK version)
 A command palette to search in my Chrome bookmarks.
 
 - `Ctrl+Space` to open (won't open in fullscreen apps)
