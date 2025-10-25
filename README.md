@@ -1,5 +1,5 @@
-# Bookmarks-palette (AHK version)
-A command palette for your Chrome bookmarks (made with [AHK](https://www.autohotkey.com/)).
+# Bookmarks Palette
+A command palette for your Chrome bookmarks ([AHK](https://www.autohotkey.com/) script).
 
 - `Ctrl+Space` to open (won't open in fullscreen apps)
 - `Tab`/`Shift+Tab` to browse bookmarks
