@@ -456,24 +456,6 @@ RefreshBookmarks(*) {
         g_guiVisible := false
     }
 
-    ; Flèches pour naviguer avec défilement infini
-    Up:: {
-        if g_searchResults.Length = 0
-            return  ; Pas de résultats, ne rien faire
-        if g_resultsList.Value > 1
-            g_resultsList.Choose(g_resultsList.Value - 1)
-        else
-            g_resultsList.Choose(g_searchResults.Length)  ; Aller au dernier élément
-    }
-    Down:: {
-        if g_searchResults.Length = 0
-            return  ; Pas de résultats, ne rien faire
-        if g_resultsList.Value < g_searchResults.Length
-            g_resultsList.Choose(g_resultsList.Value + 1)
-        else
-            g_resultsList.Choose(1)  ; Revenir au premier élément
-    }
-
     ; Tab pour naviguer vers le bas avec défilement infini
     Tab:: {
         if g_searchResults.Length = 0
